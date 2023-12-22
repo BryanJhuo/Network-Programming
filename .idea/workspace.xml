@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ddeffa0-ec85-4af8-af84-4351d6304be9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/I15ProWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/I15Window.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IPhone15.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apple.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPhone15Pro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/I15ProWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/I15ProWindow.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,6 +100,7 @@
       <workItem from="1703271057476" duration="14484000" />
       <workItem from="1703286901848" duration="8000" />
       <workItem from="1703286953709" duration="1000" />
+      <workItem from="1703287307740" duration="1983000" />
     </task>
     <servers />
   </component>
@@ -106,7 +108,8 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Network_Programming$IPhone15.coverage" NAME="IPhone15 Coverage Results" MODIFIED="1703287707719" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1702198210301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Network_Programming$main.coverage" NAME="main Coverage Results" MODIFIED="1703286742536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Network_Programming$main.coverage" NAME="main Coverage Results" MODIFIED="1703289013109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

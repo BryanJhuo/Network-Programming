@@ -6,6 +6,7 @@
 
 import tkinter
 import I15ProWindow
+import I15Window
 
 def createWindow():
     window = tkinter.Tk()
@@ -25,9 +26,13 @@ def createChoiceButton():
     return
 
 def runYourChoice():
-    #I15ProWindow.runIPhone15Pro()
-    myPurchase = I15ProWindow.IP15Pro()
-    myPurchase.runWindow()
+    if ChoiceState.get() == "IPhone 15 Pro":
+        myPurchase = I15ProWindow.IP15Pro()
+        myPurchase.runWindow()
+
+    if ChoiceState.get() == "IPhone 15":
+        myPurchase = I15Window.IP15()
+        myPurchase.runWindow()
     return
 
 if __name__ == '__main__':
@@ -36,7 +41,6 @@ if __name__ == '__main__':
     title_Label = tkinter.Label(text="Choice Your IPhone", font=("Arial", 16, "bold"), padx=5, pady=5,
                                 bg="Black", fg="white")
     title_Label.pack()
-
 
     ChoiceState = tkinter.StringVar()
 
