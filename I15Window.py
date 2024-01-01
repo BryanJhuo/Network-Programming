@@ -10,7 +10,7 @@ class IP15:
 
     def createWindow(self):
         self.window = tkinter.Tk()
-        self.window.title("Mini Apple Store : IPhone")
+        self.window.title("Mini Apple Store : IPhone 15")
         self.window.geometry('510x500')
         self.window.resizable(width=False, height=False)
         self.listState = [tkinter.StringVar(self.window) for _ in range(5)]
@@ -28,18 +28,29 @@ class IP15:
         for i in range(len(colors)):  # colors
             colorButtons.append(
                 tkinter.Radiobutton(self.window, text="" + colors[i], value=colors[i], variable=self.listState[1]))
-            colorButtons[i].place(x=200, y=50 + i * 20)
+            colorButtons[i].place(x=200, y=85 + i * 20)
 
         for i in range(len(capacity)):
             capacityButtons.append(
                 tkinter.Radiobutton(self.window, text="" + capacity[i], value=capacity[i], variable=self.listState[2]))
-            capacityButtons[i].place(x=300, y=50 + i * 20)
+            capacityButtons[i].place(x=340, y=85 + i * 20)
 
-        phoneButton1.place(x=55, y=50)
+        phoneButton1.place(x=55, y=85)
         phoneButton1.select()
-        phoneButton2.place(x=55, y=70)
+        phoneButton2.place(x=55, y=105)
         colorButtons[0].select()
         capacityButtons[0].select()
+        return
+    def createItemLabel(self):
+        mainLabel = tkinter.Label(self.window, text="客製化你的IPhone 15 ", font=("標楷體", 15, "bold"), padx=5, pady=5, bg="pink", fg="black")
+        sizeLabel = tkinter.Label(self.window, text="尺寸", font=("標楷體", 12, "bold"), padx=5, pady=5, bg="yellow", fg="black")
+        colorLabel = tkinter.Label(self.window, text="顏色", font=("標楷體", 12, "bold"), padx=5, pady=5, bg="yellow", fg="black")
+        capacityLabel = tkinter.Label(self.window, text="容量", font=("標楷體", 12, "bold"), padx=5, pady=5, bg="yellow", fg="black")
+
+        mainLabel.place(x=135, y=5)
+        sizeLabel.place(x=100, y=50)
+        colorLabel.place(x=225, y=50)
+        capacityLabel.place(x=350, y=50)
         return
 
     def updateResult(self):
@@ -56,17 +67,20 @@ class IP15:
         print("Starting IPhone 15 Series.......")
         self.createWindow()
         self.createRadioButton()
-        result_Label = tkinter.Label(self.window, textvariable=self.listState[3], font=("Arial", 16, "bold"), padx=5,
+        self.createItemLabel()
+        result_Label = tkinter.Label(self.window, textvariable=self.listState[3], font=("標楷體", 16, "bold"), padx=5,
                                      pady=5, bg="white", fg="black")
-        result_Label.place(x=0, y=200)
+        result_Label.place(x=35, y=245)
 
-        pickup_Label = tkinter.Label(self.window, textvariable=self.listState[4], font=("Arial", 16, "bold"), padx=5,
+        pickup_Label = tkinter.Label(self.window, textvariable=self.listState[4], font=("標楷體", 16, "bold"), padx=5,
                                      pady=5, bg="pink", fg="black")
-        pickup_Label.place(x=0, y=250)
+        pickup_Label.place(x=90, y=295)
 
-        confirmButton = tkinter.Button(self.window, text="Confirm", font=('Arial', 16, 'bold'),
-                                       command=self.updateResult)
-        confirmButton.place(x=200, y=160)
+        confirmButton = tkinter.Button(self.window, text="Confirm", font=('Arial', 16, 'bold'), command=self.updateResult)
+        confirmButton.place(x=200, y=195)
+
+        closeButton = tkinter.Button(self.window, text="Close", font=('Arial', 16, 'bold'), command=self.window.destroy)
+        closeButton.place(x=210, y=350)
 
         self.window.mainloop()
         return
