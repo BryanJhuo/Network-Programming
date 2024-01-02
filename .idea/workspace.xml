@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6ddeffa0-ec85-4af8-af84-4351d6304be9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MacPro.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MacProWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/I15ProWindow.py" beforeDir="false" afterPath="$PROJECT_DIR$/I15ProWindow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/I15Window.py" beforeDir="false" afterPath="$PROJECT_DIR$/I15Window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IPhone15Pro.py" beforeDir="false" afterPath="$PROJECT_DIR$/IPhone15Pro.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +106,7 @@
       <workItem from="1704018879544" duration="996000" />
       <workItem from="1704051432846" duration="4428000" />
       <workItem from="1704096031286" duration="15257000" />
+      <workItem from="1704182502735" duration="55000" />
     </task>
     <servers />
   </component>

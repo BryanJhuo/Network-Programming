@@ -6,12 +6,6 @@ import json as js
 url_1 = "https://www.apple.com/tw/shop/buy-iphone/iphone-15-pro"
 request = requests.get(url_1)
 html = BeautifulSoup(request.content, "html.parser")
-'''
-#清單
-test1 = html.find_all("span", {"class": "globalnav-link-text"})
-#清單json
-json_text = html.find("script", {"id": "__ACGH_DATA__", "type": "application/json"})
-'''
 def getColor():     # 擷取顏色
     colors = []
     allColors = html.find("div", {"class": "product-selection-area noscript as-l-container"}).find(
